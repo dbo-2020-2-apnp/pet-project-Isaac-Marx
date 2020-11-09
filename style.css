@@ -1,3 +1,28 @@
 .azul {
   color: blue;
 }
+
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color: lightsteelblue;}
+
+h2 {color:firebrick;font-weight:bold}
+
+dt {font-weight: bolder;}
+dd {font-style: italic;padding-top: 10px; padding-bottom: 10px; width: 500px;}
+
+nav li:hover {
+background-color: lightcoral;
+}
+
+nav li {
+  font-weight: bolder;
+  font-size: larger;
+  padding: 0px;
+  margin: 0px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  list-style: none;
+}
+
+nav ul {
+  margin: 0px;padding: 0px;
+}
