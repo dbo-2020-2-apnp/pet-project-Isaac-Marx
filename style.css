@@ -4,25 +4,22 @@
 
 body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color: lightsteelblue;}
 
-h2 {color:firebrick;font-weight:bold}
+h1 {text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2 {color:firebrick;font-weight:bold; font-family: 'Courier New', Courier, monospace;}
 
 dt {font-weight: bolder;}
-dd {font-style: italic;padding-top: 10px; padding-bottom: 10px; width: 500px;}
+dd {font-style: italic;padding-top: 10px; padding-bottom: 10px; width: 50%;text-align: justify}
 
-nav li:hover {
-background-color: lightcoral;
-}
+nav li:hover {background-color: rgba(182, 214, 233, 0.75);}
 
 nav li {
   font-weight: bolder;
   font-size: larger;
-  padding: 0px;
   margin: 0px;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding:25px;
   list-style: none;
 }
 
-nav ul {
-  margin: 0px;padding: 0px;
-}
+.central{max-width: 50%;margin: auto}
+
+nav ul {margin: 0px;padding: 0px;}
