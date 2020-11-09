@@ -23,3 +23,5 @@ nav li {
 .central{max-width: 50%;margin: auto}
 
 nav ul {margin: 0px;padding: 0px;}
+
+img {display: block;margin: auto;width: 50%;width:100px; height:200px}
