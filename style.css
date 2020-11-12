@@ -2,15 +2,20 @@
   color: blue;
 }
 
-body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color: lightsteelblue;}
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color: silver;}
+/*para colocar imagem de background em loop com repeat*/
+/*não consegui botar pra grayscale*/
+html {background-image: url(mosaic.png); background-repeat:repeat; background-size: 50%;filter:grayscale(100%)}
 
 h1 {text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-h2 {color:firebrick;font-weight:bold; font-family: 'Courier New', Courier, monospace;}
+h2 {color:maroon;font-weight:bold; font-family: 'Courier New', Courier, monospace;}
 
 dt {font-weight: bolder;}
-dd {font-style: italic;padding-top: 10px; padding-bottom: 10px; width: 50%;text-align: justify}
+/*para limitar o texto e justifica-lo*/
+dd.rpgchar {margin-top: 10px; margin-bottom: 10px; width: 50%;text-align: justify}
 
-nav li:hover {background-color: rgba(182, 214, 233, 0.75);}
+/*para colocar hover. o 4º número é a opacidade, omitivel*/
+nav li:hover {background-color: rgba(150, 150, 150, 0.75);}
 
 nav li {
   font-weight: bolder;
@@ -20,8 +25,10 @@ nav li {
   list-style: none;
 }
 
+/*para centralizar a pagina*/
 .central{max-width: 50%;margin: auto}
 
 nav ul {margin: 0px;padding: 0px;}
 
 img {display: block;margin: auto;width: 50%;width:100px; height:200px}
+
