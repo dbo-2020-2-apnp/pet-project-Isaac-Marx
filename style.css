@@ -4,6 +4,7 @@
 
 body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-color: silver;}
 /*para colocar imagem de background em loop com repeat*/
+/*não consegui botar pra grayscale*/
 html {background-image: url(mosaic.png); background-repeat:repeat; background-size: 50%;filter:grayscale(100%)}
 
 h1 {text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
