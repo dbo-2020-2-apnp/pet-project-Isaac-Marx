@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Template</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="icon" href="icon.png">
+</head>
+
+<body class="central">
+<br>
+  <h1 class="align">Forms e inputs</h1>
+
+  <nav style="text-align: center">
+     <h2><a href="summary.html">Home</a></h2>
+  </nav>
+<h2 class="align">Qual a melhor espécie de macaco?</h2>
+<form class="hor">
+
+  <label for="pigmeu"><input type="radio" id="pigmeu" name="monke">Sagui pigmeu</label>
+
+  <label for="imperador"><input type="radio" id="imperador" name="monke">Sagui imperador</label>
+
+  <label for="gorila"><input type="radio" id="gorila" name="monke">Gorilão</label>
+</form>
+<br>
+<form class="align">
+<label for="monkeimage">Insira sua melhor imagem de macaco aqui<br><input type="file" accept="image/*" id="monkeimage" name="monke"></label>
+</form>
+
+<br><h3 class="align">RPG</h2>
+
+<form style=";max-width: 50%;margin: auto;" class="hor">
+  <fieldset>
+    <legend class="align">Já jogou rpg de mesa?</legend>
+
+<label for="s"><input type="radio" id="s" name="rpg">Sim</label>
+
+<label for="n"><input type="radio" id="n" name="rpg">Não</label>
+</fieldset>
+</form>
+<br>
+<form style="text-align: justify;max-width: 50%;margin: auto">
+  <fieldset>
+    <legend class="align">Em que cenários?</legend>
+
+<label for="medieval"><input type="checkbox" id="medieval" name="rpgc">Medieval mágico</label>
+
+<label for="cyberpunk"><input type="checkbox" id="cyberpunk" name="rpgc">Cyberpunk</label>
+
+<label for="steampunk"><input type="checkbox" id="steampunk" name="rpgc">Steampunk</label>
+
+<label for="ww2"><input type="checkbox" id="ww2" name="rpgc">WW1/2 ou similar</label>
+
+<label for="vitoriana"><input type="checkbox" id="vitoriana" name="rpgc">Era vitoriana</label>
+<label for="outro">Outro: <input type="text" id="outro" name="rpgc"></label>
+
+</fieldset>
+</form>
+<br>
+<form>
+<label for="obras"></label>
+</form>
+
+  <br>
+  <a href="#" class="t" style="text-align:center">Voltar ao Início</a>
+  <br>
+  <br>
+</body>
+
+</html>
+<!-- value = texto  padrão no input
+placeholder = texto "vazio" no input
+readonly = só pra leitura, disabled mas com texto
+autofocus = foco em campo logo de início-->
+<!-- mimetype = image/*-->

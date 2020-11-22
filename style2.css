@@ -5,11 +5,18 @@
 html{background-image: none; background-color:lightslategray;}
     nav li:hover {background-color:rgb(240, 255, 240,0.5);}
 
-body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-image: url(mosaic.png); background-repeat:round; background-size: 100%; font-family:Arial, Helvetica, sans-serif;}
+body {font-family:Verdana, Geneva, Tahoma, sans-serif;background-image: url(mosaic2.png); background-repeat:round; background-size: 50%; font-family:Arial, Helvetica, sans-serif;}
 
 video{margin:auto; margin-top:15px; margin-bottom:15px;display:block; max-width: 50%; max-height: 50%; border: 3px solid aliceblue;}
 
-nav li {display:inline; margin: 0px; padding:25px; color:wheat; text-align: center;font-size:large; font-family: Georgia, 'Times New Roman', Times, serif; list-style: none;}
+nav li {display:inline; margin: 0px; padding:25px; color:wheat;font-size:large; font-family: Georgia, 'Times New Roman', Times, serif; list-style: none;}
 
 div figure img {display:block;width: 100%; height: 100%;}
 figcaption {text-align: center; color: aliceblue;font-size: large;}
+
+form{text-align: center; color: aquamarine; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.align{color: khaki; text-align: center;}
+
+label {display: block;}
+.hor label{display:inline}
