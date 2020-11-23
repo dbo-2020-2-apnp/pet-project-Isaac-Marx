@@ -1,6 +1,6 @@
 .central{max-width: 50%;margin: auto}
 html {}
-body {background-image: url(mosaic.png); background-repeat: repeat; background-size: 50%; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {background-color: lavender; font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 h1 {text-align: center;}
 nav li {font-size: large; padding: 50px; text-align: center; list-style: none;}
