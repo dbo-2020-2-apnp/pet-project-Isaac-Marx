@@ -1,0 +1,21 @@
+div {display: inline-block}
+* {box-sizing: border-box}
+
+/* limitação de diminuição e crescimento */
+body {border: 5px solid red; width: 50%; max-width: width 80%;min-width: 20%;}
+html {border: 5px solid blue}
+
+#header {right: 0px; top: 0px;position:absolute;
+height: 200px; background: url(mosaic.png) no-repeat 20px; background-color: rosybrown ; border: 1px solid royalblue;}
+
+#section {overflow: scroll}
+
+#aside {top:50%; }
+
+#footer {}
+
+/* border-box é para considerar o tamanho total*/
+/* position:
+static é o padrão
+relative: relativo a onde estaria o elemente se fosse static
+ */
