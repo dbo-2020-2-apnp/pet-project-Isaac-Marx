@@ -5,6 +5,8 @@ div {display: inline-block}
 body {border: 5px solid red; width: 50%; max-width: width 80%;min-width: 20%;}
 html {border: 5px solid blue}
 
+nav ul {style="list-style: none; margin-left:0; padding-left: 0;"}
+
 #header {right: 0px; top: 0px;position:absolute;
 height: 200px; background: url(mosaic.png) no-repeat 20px; background-color: rosybrown ; border: 1px solid royalblue;}
 
@@ -14,6 +16,11 @@ height: 200px; background: url(mosaic.png) no-repeat 20px; background-color: ros
 
 #footer {}
 
+.robohash {text-align: center;width: 300px;max-width: 600px;}
+
+.card {border: 3px solid salmon; width: 100px; }
+
+.card:hover{background-color: teal; transition: background-color 0.5s;}
 /* border-box é para considerar o tamanho total*/
 /* position:
 static é o padrão
