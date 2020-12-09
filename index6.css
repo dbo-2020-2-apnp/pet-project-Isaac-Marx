@@ -2,13 +2,14 @@ div {display: inline-block}
 * {box-sizing: border-box}
 
 /* limitação de diminuição e crescimento */
-body {border: 5px solid red; width: 50%; max-width: width 80%;min-width: 20%;}
+body { width: 50%; max-width: width 80%;min-width: 20%;}
 html {border: 5px solid blue}
 
 nav ul {list-style: none; margin-left:0; padding-left: 0;}
 
 #header {right: 0px; top: 0px;position:absolute;
-height: 200px; background-image: url(mosaic.png) no-repeat 20px; background-color: rosybrown ; border: 1px solid royalblue;}
+height: 200px; width: 100%;
+background-image: url(mosaic.png) no-repeat 20px; border: 1px solid royalblue;}
 
 #section {overflow: scroll}
 
