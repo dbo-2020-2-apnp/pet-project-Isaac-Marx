@@ -7,9 +7,13 @@ html {border: 5px solid blue}
 
 nav ul {list-style: none; margin-left:0; padding-left: 0;}
 
-#header {right: 0px; top: 0px;position:absolute;
-height: 200px; width: 100%;
-background-image: url(mosaic.png) no-repeat 20px; border: 1px solid royalblue;}
+#header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(mosaic.png) no-repeat 20px; border: 1px solid royalblue;
+  color: white;
+  font-size: 30px;
+}
 
 #section {overflow: scroll}
 
