@@ -1,0 +1,98 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  /* top-spacing: 100px; */
+}
+
+/*margin auto pra centralizar*/
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*para fazer o link não ser azul e com underline*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.top {
+  padding-top: 14em;
+}
+.bot {
+  padding-bottom: 7em;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px 0px;
+  text-align: center;
+  background: royalblue;
+  color: white;
+  font-size: large;
+}
+
+.sidestuff {
+  text-align: right;
+  right: 0%;
+  margin: auto;
+}
+
+.header a {
+  margin-right: 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 0px;
+  text-align: center;
+  background: royalblue;
+  color: white;
+  font-size: large;
+}
+
+/*pros cards de funcionários*/
+
+.robohash {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  border: 3px solid grey;
+  box-shadow: 5px;
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
+
+/* .card:hover {
+  background-color: steelblue);
+  transition: background-color 0.5s;
+} */
+
+.card p {
+  font: large helvetica;
+  margin: 0;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border: 1px solid gray;
+}
