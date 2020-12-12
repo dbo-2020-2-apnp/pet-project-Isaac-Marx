@@ -1,0 +1,137 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  /*   background-image: gifbg.gif; */
+  /* top-spacing: 100px; */
+}
+
+/*margin auto pra centralizar*/
+
+h1 {
+  text-align: center;
+}
+
+/*para fazer o link não ser azul e com underline*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.top {
+  padding-top: 14em;
+}
+.bot {
+  padding-bottom: 14em;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 9em;
+  text-align: center;
+  background: firebrick;
+  color: white;
+  font-size: large;
+}
+
+.logo img {
+  margin: 5px;
+  border-radius: 50%;
+  border: 5px solid salmon;
+  box-shadow: 0px 0px 10px black;
+  width: 10em;
+  ;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+
+.column {
+  float: left;
+  display:inline;
+  width: 30%;
+  padding: 5px;
+
+}
+
+.inlineblock{display: inline-block;}
+
+.box {
+  background-color: white;
+  border: 2px solid indianred;
+  border-radius: 10px;
+  text-align: center;
+align-items: stretch;
+  margin: 10px;
+  display:inline-block;
+
+}
+
+.box2 {
+  border: 2px solid indianred;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: justify;
+ font-size: large;
+display:inline-block;
+align-items: stretch}
+
+.box2 h3{
+   text-align: center;
+}
+
+form {
+  padding: 10px;
+  font-size: large;
+  text-align: justify;
+}
+
+label{margin:15px}
+
+form img {
+  border-radius: 50%;
+  height: 2em;
+  vertical-align: middle;
+}
+
+input {
+  margin: 5px;
+}
+
+.r{float:right;width:50%}
+.l{float:left;width:50%}
+
+.sidestuff {
+  position: absolute;
+  text-align: right;
+  top: 7em;
+  right: 0%;
+  margin: auto;
+  background: firebrick;
+}
+
+.header a {
+  margin-right: 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  background: firebrick;
+  color: white;
+  font-size: large;
+}
+
+/*pros cards de funcionários*/
+
+
+* {
+  box-sizing: border-box;
+}
